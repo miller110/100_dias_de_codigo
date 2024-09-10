@@ -4,7 +4,6 @@ desvio padrão, máximo e mínimo da coluna numérica “vendas”. (Python, Pan
 
 """
 import pandas as pd
-import numpy as np
 
 dados = {'vendas': [3000, 4500, 1800, 2500, 1300, 2100, 1900, 4400]}
 df = pd.DataFrame(dados)

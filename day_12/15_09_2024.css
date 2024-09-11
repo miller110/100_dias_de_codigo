@@ -22,7 +22,7 @@ main {
 }
 
 .card {
-    width: 500px;
+    width: 700px;
     height: 500px;
     position: relative;
     perspective: 1000px;
@@ -66,6 +66,7 @@ p {
     font-weight: bold;
     color: white;
     text-align:justify;
+    font-size: 25px;
 }
 
 .front {

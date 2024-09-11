@@ -1,0 +1,38 @@
+<!--Criando um card interativo com HTML e CSS, quando ao clicado, o card vira frente/verso-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Interativo</title>
+    <link rel="stylesheet" href="15_09_2024.css">
+</head>
+
+<body>
+    <main>
+        <article class="card">
+            <input type="checkbox" id="virar" class="virar_checkbox">
+            <label for="virar" class="virar_label">
+                <section class="card_face front" title="Clique no card para girar">
+                    <header>
+                        <h2>One Piece</h2>
+                    </header>
+                    <img src="img/onepiece2.jpg" alt="One Piece" class="card-img">
+                    <p>One Piece é um anime de aventura que conta a história de Monkey D. Luffy e
+                        sua tripulação de piratas, os Chapéus de Palha, em busca do tesouro lendário
+                        One Piece.</p>
+                </section>
+                <section class="card_face back" title="Clique no card para ele girar">
+                    <header>
+                        <h2>Monkey D. Luffy</h2>
+                    </header>
+                    <img src="img/luffy.jpg" alt="Monkey D. Luffy" class="card-img">
+                    <p>Monkey D. Luffy é o capitão dos Piratas do Chapéu de Palha e é conhecido por
+                        ser persistente e sonhar em se tornar o Rei dos Piratas. </p>
+                </section>
+            </label>
+        </article>
+    </main>
+</body>
+</html>

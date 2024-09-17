@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+header {
+    background-color: orangered;
+}
+
+.caixaDoRelogio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#relogio {
+    background-color: orangered;
+    width: auto;
+    padding: 40px 80px;
+    font-size: 96px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#relogio:hover{
+    background-color: black;
+    color: orangered;
+} 

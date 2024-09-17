@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  flex-direction: column;
+  transition: 0.5s;
+}
+
+h1 {
+  transition: color 0.5s;
+}
+
+
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+.interruptor {
+  width: 350px;
+  height: 150px;
+  background-color: orangered;
+  border-radius: 150px;
+  position: relative;
+  cursor: pointer;
+  margin-top: 40px;
+  transition: background-color 0.5s;
+}
+
+.interruptor .botao {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  border-radius: 50%;
+  transform: scale(.9);
+  position: absolute;
+  cursor: pointer;
+  left: 0;
+  transition: 0.5s;
+}
+
+.interruptor.light {
+  background-color: lightgray;
+}
+
+.interruptor.light.botao {
+  left: 200px;
+  background-color: white;
+}
+
+
+.interruptor.dark{
+  background-color: darkorange;
+}
+
+.interruptor.dark .botao{
+  left: 200px;
+  background-color: white;
+}
+
+
+

@@ -9,8 +9,49 @@ copie-a para seu clipboard no final.-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerador de Senha Aleatória</title>
     <link rel="stylesheet" href="20_09_2024.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div id="container">
+        <h1>Gerar Senha</h1>
+
+        <div class="senha">
+            <span id="senha"></span>
+            <button id="copiar">Copiar
+                <i class="fa-solid fa-copy"></i>
+            </button>
+        </div>
+
+        <div id="itensSenha">
+            <div class="item">
+                <input type="number" name="size" id="size" placeholder="Insira aqui a quantidade">
+                <label for="size"><strong>Caracteres ⬆️</strong></label>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" name="incluirMaiuscula" id="incluirMaiuscula">
+                <label for="incluirMaiuscula">Incluir Letra Maiúscula</label>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" name="incluirMinuscula" id="incluirMinuscula">
+                <label for="incluirMinuscula">Incluir Letra Minúscula</label>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" name="incluirNumero" id="incluirNumero">
+                <label for="incluirNumero">Incluir Número</label>
+            </div>
+
+            <div class="item">
+                <input type="checkbox" name="incluirCaractereEspecial" id="incluirCaractereEspecial">
+                <label for="incluirCaractereEspecial">Incluir Caractere Especial</label>
+            </div>
+
+            <button id="gerador">Gerar Senha</button>
+        </div>
+
+    </div>
     
     <script src="20_09_2024.js"></script>
 </body>

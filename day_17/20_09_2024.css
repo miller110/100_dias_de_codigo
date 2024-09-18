@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(27, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: #f4f4a8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.senha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafe;
+}
+
+.senha #senha {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    flex-grow: 1;
+}
+
+.senha button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #333;
+}
+
+
+#itensSenha {
+    margin-top: 20px;
+}
+
+.item {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.item label {
+    margin-left: 8px;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+#gerador {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#gerador:hover {
+    background-color: #45a049;
+}
+
+#copiar {
+    color: #2196f3;
+}
+
+#copiar:hover {
+    color: #0b7dda;
+}

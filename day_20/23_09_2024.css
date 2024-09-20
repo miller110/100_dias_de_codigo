@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90vh;
+}
+
+.product-section {
+    width: 100%;
+    max-width: 400px;
+}
+
+.product-card {
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.product-header {
+    margin-top: 10px;
+}
+
+.product-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.product-price-container {
+    margin-bottom: 20px;
+}
+
+.product-price {
+    font-size: 1.4rem;
+    color: green;
+    font-weight: bold;
+}
+
+
+#paypal-button-container {
+    margin-top: 15px;
+}
